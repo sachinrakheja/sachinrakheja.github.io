@@ -505,7 +505,7 @@ ul li a
 	   top: 50px;
 	   left: 42%;
 	   font-size: 2vw;
-	   background: transparent;
+	   /*background: transparent;*/
 	}
 	.donation_btn a{
 		text-decoration: none;
