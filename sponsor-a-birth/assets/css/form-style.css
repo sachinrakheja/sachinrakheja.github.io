@@ -258,7 +258,7 @@ iframe {
 }
 .sponser-heading{
 	color: #005999;
-	margin: 0 0 24px -106px;
+	margin: 20px 0 24px -0px;
 	font-size: 36px;
 	font-family: 'Raleway', sans-serif;
 }
@@ -266,10 +266,10 @@ iframe {
 /*CSS For make red * icon in required fields */
 .required:after {
   content:"*";
-  color:red;
+  color:#005999;
 }
 .sponser-section-devider-right{
-    border-left: 3px solid #005999;
+    border-left: 2px solid  #a9cce3;
     margin-top: 2%;
 }
 .sponser-section-devider-left{
@@ -380,15 +380,29 @@ input.input100 {
   transition: all 0.4s;
 
   /*Added by tara*/
-  	left:  47px;
+  left:41%;
 	position: absolute;
 	margin-top: 40px;
 	border: 2px solid #a9cce3;
 	color: #005999;
     font-weight: 600;
     background: transparent;
-    width: 100px;
+    width: auto;
     height: 35px;
+}
+
+
+.login100-form-btn-donation {
+
+  left:46%;
+	position: absolute;
+  margin-top: 40px;
+  
+  
+}
+
+.login100-form-btn-donation:hover{
+  background-color:#fff; 
 }
 
 .login100-form-btn:hover {
@@ -503,3 +517,29 @@ input.input100 {
 /*################### Form layout Css End ################
 				For All Form page layout 
 #######################################################*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.sponser-heading{
+		color: #005999;
+		margin: 0 0 24px -106px;
+		font-size: 36px;
+		font-family: 'Raleway', sans-serif;
+	}
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.sponser-heading{
+		color: #005999;
+		margin: 0 0 24px -106px;
+		font-size: 36px;
+		font-family: 'Raleway', sans-serif;
+	}	
+
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }

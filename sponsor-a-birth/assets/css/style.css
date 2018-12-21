@@ -2,6 +2,7 @@ body
 {
     margin: 0%;
     padding: 0%;
+	height: 100%;
     overflow-x: hidden;
 }
 /*Index page*/
@@ -16,9 +17,10 @@ body
 /* Background Image*/
 .bg_image{
     width: 100%;
-    height:450px;
+    min-height:538px;
     background-image: url('../img/bg-image.jpg');
-    background-size: 100% 100%;
+	background-size: cover; 
+	background-position: center center;
     position: relative;
 }
 
@@ -30,7 +32,7 @@ body
  font-family: 'Raleway', sans-serif;
  font-size: 10vw;
  position: absolute;
- top: 180px;
+ top: 200px;
  padding-left: 10px;
 }
 
@@ -40,7 +42,7 @@ body
  font-size: 10vw;
  font-family:  'Raleway', sans-serif;
  position: absolute;
- top: 220px;    
+ top: 280px;    
  left: 150px;
  
  
@@ -49,6 +51,8 @@ body
 .font-la-sonnambula{
 	font-family: la-sonnambula;	
 	font-size: 8vw;
+	height : 150%;
+	width : 75% ;
 }
 
 .homep3
@@ -66,8 +70,8 @@ right: 4%;
 
 /* navigation bar*/
 .menu-style{
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -120,26 +124,33 @@ ul li a
     margin-left: auto;
 }
 
-.footer
+.sab-footer
 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     text-decoration: none;
     position: relative;
     /*margin: -1%;*/
-    margin-top: 12px;
-    height: fit-content;
+    /*margin-top: 12px;*/
+    /*height: fit-content;*/
 }
+
+.sab-footer p{
+	padding: 5px 0 0 0;
+}
+
 /* footer */
 
 /* vision background image*/
 .bg_image1{  
     width: 100%;
-    /*height:535px;*/  
+    /*height:535px;*/ 
+	min-height:538px;		
     max-height: auto;
     background-image: url(../img/vision.png);
     background-repeat: no-repeat;  
-    background-size: 100% 100%;  
+	background-size: cover; 
+	background-position: center center;  
     object-fit: cover;
 }
 
@@ -163,13 +174,14 @@ ul li a
 	font-family: 'Raleway', sans-serif;
 }
 
+/* About Us */
 .profile-photo > img{
 	margin: 2% 0% 0% 15%;
 	width: 70%;
 }
 
 .profile > h2{
-	margin: 10% 0% 0% 0%;
+	margin: 10% 0% 0% 10%;
 	color:#19559B;
 	font-family: 'Raleway', sans-serif;
 	font-size: 38px;
@@ -177,7 +189,7 @@ ul li a
 }
 
 .profile > p{
-	margin: 1% 0% 0% 0%;
+	margin: 1% 10% 0% 10%;
 	line-height: 30px;
 	font-size: 19px;
 	color: #19559B;
@@ -187,27 +199,28 @@ ul li a
 .profile > h4{
 	color: #19559B;
 	font-size: 19px;
-	margin: 0% 10% 8% 0%;
+	margin: 0% 10% 8% 10%;
 	text-decoration: underline;
 	font-family: Georgia, 'Times New Roman', Times, serif;    
 }
-
+/* About Us */
 
 .global_content > p{
     /*margin-top: 20px;   */
     color:#19559B;
     font-size: 14px;
     font-family: Georgia, 'Times New Roman', Times, serif; 
-    margin: 5% 0% 0% 0%; 	
+    margin: 2% 10% 2% 10%;	
 }
 
 /* Page - Refer Donor via get involved */
 	 .bg_image_1{
 		width: 100%;
-		height:510px;
-		max-width: auto;
+		min-height:538px;
+		max-height: auto;
 		background-image: url('../img/get_involved_background.png');
-		background-size: 100% 100%;
+		background-size: cover; 
+	 	background-position: center center;
 		position: relative;;
 	}
 
@@ -272,7 +285,7 @@ ul li a
 		font-family: georgia;
 		text-align: center;
 		position: relative;
-	   font-size: 4vw;
+	   font-size: 3vw;
 	   padding-left: 0px;
 		padding-right: 0px;
 	}
@@ -311,7 +324,7 @@ ul li a
 		font-family: georgia;
 		text-align: center;
 		position: relative;
-	   font-size: 4vw;
+	   font-size: 3vw;
 		  padding-left: 0px;
 		padding-right: 0px;
 	}
@@ -321,16 +334,12 @@ ul li a
 /*Contact Us*/
 .contact_refer_main_container{
     width: 100%;
-	min-height: 535px;
-    height: 450px; 
+	min-height: 538px;
+    max-height: auto;
     background-image: url(../img/bg-image.jpg);
-    background-size: 100% 600px;
+	background-size: cover;
+	background-position: center center;
 	
-	/*width: 100%;
-    height:450px;
-    background-image: url('../img/Landing.png');
-    background-size: 100% 100%;
-    position: relative;*/
 	
 }
 .contact_transparent-input{
@@ -367,13 +376,14 @@ ul li a
 .contact_table-t2
 {
     text-align: center;
-    margin-top: 17%;
+    margin-top: 12%;
 }
 .table-t2 a p{
     color:rgb(58, 171, 216);
 }
 .contact_table-t2 h4{
-    color: #00579A;
+	color: #00579A;
+	font-size: 30px;
 }
 .contact_refer-btn
 {
@@ -386,10 +396,11 @@ ul li a
 
 	.donation_bg_image_1{
 		width: 100%;
-		min-height:460px;
+		min-height:538px;
 		max-height: auto;
 		background-image: url('../img/background.png');
-		background-size: 100% 100%;
+		background-size: cover; 
+	 	background-position: center center;
 		position: relative;
 	}
 	.donation_refer_donor1{
@@ -503,12 +514,13 @@ ul li a
 		margin-right: auto;
 	   position: relative;
 	   top: 50px;
-	   left: 42%;
-	   font-size: 2vw;
+	   left: 45%;
+	   
 	   /*background: transparent;*/
 	}
 	.donation_btn a{
 		text-decoration: none;
+		font-size: 15px;
 	}
 	.donation_space_div{
 		height: 80px;
@@ -518,11 +530,12 @@ ul li a
 
 	/* Thanks You Page */
 	#thankyou{
-		min-height:518px;
+		min-height:538px;
 		max-height: auto;
 		width: 100%;
 		background-image: url("..//img/background.png");
-		background-size: 100% 100%;
+		background-size: cover; 
+	 	background-position: center center;
 	}
 
 	#thankyou h1{
@@ -548,7 +561,7 @@ ul li a
 	 font-family: 'Raleway', sans-serif;
 	 font-size: 6vw;
 	 position: absolute;
-	 top: 180px;
+	 top: 200px;
 	}
 
 	.homep2
@@ -557,7 +570,7 @@ ul li a
 	 font-size: 6vw;
 	 font-family:  'Raleway', sans-serif;
 	 position: absolute;
-	 top: 230px;    
+	 top: 280px;    
 	 left: 170px;	 
 	}
 
@@ -576,8 +589,54 @@ ul li a
 	right: 4%;
 	}
 
+	/* navigation bar*/
+	.menu-style{
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.navbar{
+		background-color: #00579A;
+		overflow: hidden;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		/*margin-bottom:0px;*/
+		margin-bottom:0px !important;
+	}
+	ul li
+	{
+		margin-top: 3%;
+		/*font-family: Georgia, 'Times New Roman', Times, serif;*/
+		font-family: 'Raleway', sans-serif;
+		padding-right: 22px;
+	}
+
+	ul li a
+	{
+		text-decoration: none;
+		color: Rgb(195,217,238) ;
+		font-family: 'Raleway', sans-serif;
+		font-size: 20px;
+		/*font-family: Georgia, 'Times New Roman', Times, serif;*/
+		color: #f2f2f2;
+	   
+	}
+	.nav>li>a:focus, .nav>li>a:hover 
+	{
+		text-decoration: none;
+		background-color: transparent !important;
+		color: rgb(196, 217,236);
+	}
+
+	.navbar-header button{
+		background: transparent;
+	}
+	/* navigation bar*/	
+	
 	.global_header_logo{
-		/*padding-left: 80px !important;*/
+		padding-left: 60px !important;
 	}
 
 	.global_header_tag{
@@ -593,17 +652,18 @@ ul li a
 		color:#19559B;
 		font-size: 18px;
 		font-family: Georgia, 'Times New Roman', Times, serif; 
-		margin: 5% 0% 0% 0%; 	
+		margin: 2% 10% 2% 10%; 	
 	}
 	
 	/* Page - Refer Donor via get involved */
 	 .bg_image_1{
 		width: 100%;
-		height:510px;
+		min-height:538px;
 		max-width: auto;
 		background-image: url('../img/get_involved_background.png');
-		background-size: 100% 100%;
-		position: relative;;
+		background-size: cover; 
+		background-position: center center;
+		position: relative;
 	}
 
 	.involved_img-responsive{
@@ -877,13 +937,15 @@ ul li a
 	.font-la-sonnambula{
 		font-family: la-sonnambula;	
 		font-size: 6vw;
+		height : 150%;
+		width : 75%;
 	}	
 
 	.homep3
 	{
 	color:#00579A;
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: 2vw;
+	font-size: 1.5vw;
 	position: absolute;;
 	top: 92%;
 	right: 6%;
@@ -895,19 +957,58 @@ ul li a
 		padding-right: 50px;
 	}
 	
+	/* navigation bar*/
 	.menu-style{
 		padding-left: 50px;
 		padding-right: 50px;
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
+	.navbar{
+		background-color: #00579A;
+		overflow: hidden;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		/*margin-bottom:0px;*/
+		margin-bottom:0px !important;
+	}
+	ul li
+	{
+		margin-top: 3%;
+		/*font-family: Georgia, 'Times New Roman', Times, serif;*/
+		font-family: 'Raleway', sans-serif;
+		padding-right: 22px;
+	}
+
+	ul li a
+	{
+		text-decoration: none;
+		color: Rgb(195,217,238) ;
+		font-family: 'Raleway', sans-serif;
+		font-size: 20px;
+		/*font-family: Georgia, 'Times New Roman', Times, serif;*/
+		color: #f2f2f2;
+	   
+	}
+	.nav>li>a:focus, .nav>li>a:hover 
+	{
+		text-decoration: none;
+		background-color: transparent !important;
+		color: rgb(196, 217,236);
+	}
+
+	.navbar-header button{
+		background: transparent;
+	}
+	/* navigation bar*/
 
 	.global-header{
 				padding-top: 10px;
 	}
 
 	.global_header_logo{
-		/* padding-left: 80px !important;*/
+		 padding-left: 10px !important;
 	}
 
 	.global_header_tag{
@@ -916,7 +1017,7 @@ ul li a
 	
 	.global_header_tag > h1{
 		color:#19559B;
-		font-size: 56px;
+		font-size: 46px;
 		margin-top: 10px;
 		padding-left: 5px;
 		font-family: 'Raleway', sans-serif;
@@ -970,19 +1071,16 @@ ul li a
 		margin: 2% 10% 2% 10%; 	 /* top left bottom right */
 	}
 	
-	.bg_image_1{
-
-	}
-
+	
 
 	/* Page - Refer Donor via get involved */
 	 .bg_image_1{
 		width: 100%;
-		height:500px;
+		min-height:538px;
 		max-width: auto;
 		background-image: url('../img/get_involved_background.png');
 		background-size: 100% 100%;
-		position: relative;;
+		position: relative;
 	}
 
 	.involved_img-responsive{
@@ -1022,7 +1120,7 @@ ul li a
 		padding-top: 20px;
 		 position: relative;
 		 box-sizing: border-box;
-		 font-size: 56px;
+		 font-size: 46px;
 		 font-family: 'Raleway', sans-serif;
 	}
 
@@ -1048,8 +1146,8 @@ ul li a
 		text-align: center;
 		position: relative;
 	   font-size: 1.6vw;
-	   padding-left: 40px;
-		padding-right: 40px;
+	   padding-left: 100px;
+		padding-right: 100px;
 	}
 	.donor{
 		height: 230px;
@@ -1063,7 +1161,7 @@ ul li a
 		padding-top: 40px;
 		position: relative;
 		box-sizing: border-box;
-		font-size: 56px;
+		font-size: 46px;
 		font-family: 'Raleway', sans-serif;
 	}
 
@@ -1088,8 +1186,8 @@ ul li a
 		text-align: center;
 		position: relative;
 	   font-size: 1.6vw;
-		  padding-left: 40px;
-		padding-right: 40px;
+		  padding-left: 100px;
+		padding-right: 100px;
 	}
  
  
@@ -1231,12 +1329,12 @@ ul li a
 	
 	/* Thanks You Page */
 	#thankyou{
-		min-height:518px;
+		min-height:538px;
 		max-height: auto;
 		width: 100%;
 		background-image: url("..//img/background.png");
-		background-size: 100% 100%;
-
+		background-size: cover; 
+	   	background-position: center center;
 	}
 
 	#thankyou h1{
