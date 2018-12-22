@@ -708,12 +708,11 @@ ul li a
 	}
 
 	.refer h1:hover{
-	   
-		font-size: 4.3vw;
+	    font-size: 4.3vw;
 		transition: font-size .8s;
 	}
-
-	.refer a{
+	
+ 	.refer a{
 		color: whitesmoke;
 		font-family: Arial;
 	   text-decoration: none;
@@ -912,7 +911,16 @@ ul li a
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {	
 	.bg_image{
-		height:500px;
+		height:624px;
+	}
+	.bg_image1{
+		height:624px;
+	}
+	.bg_image_1{
+		height:624px;
+	}
+	.donation_bg_image_1{
+		height:624px;
 	}
 	.homep1
 	{
@@ -1326,7 +1334,10 @@ ul li a
 		width: 100%;
 		background-color: transparent;
 	}
-	
+	/*Contact Us*/
+	.contact_refer_main_container{
+		min-height: 624px;
+	}	
 	/* Thanks You Page */
 	#thankyou{
 		min-height:538px;
