@@ -57,3 +57,18 @@
   } 
   
   /* receipt end */
+@media (min-width: 768px) {	
+	.receipt_background{
+		min-height: 536px;
+	  }
+}
+
+@media (min-width: 992px) {	
+	.receipt_background{
+		min-height: 624px;
+	  }
+}
+  
+  
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
