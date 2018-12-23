@@ -240,7 +240,7 @@ iframe {
   /*background: #57b846;*/
   /*Css Added by tara*/
   height: 65%;
-  border-left:2px solid #a9cce3;
+  border-left:0px solid #a9cce3;
 
 }
 
@@ -525,6 +525,9 @@ input.input100 {
 		margin: 0 0 24px -106px;
 		font-size: 36px;
 		font-family: 'Raleway', sans-serif;
+	}
+	.focus-input100::before {
+		border-left:2px solid #a9cce3;
 	}
 }
 

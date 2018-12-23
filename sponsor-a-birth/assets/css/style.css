@@ -15,13 +15,29 @@ body
 
 
 /* Background Image*/
-.bg_image{
+.bg-banner{
     width: 100%;
-    min-height:538px;
-    background-image: url('../img/bg-image.jpg');
+    min-height:428px;
 	background-size: cover; 
 	background-position: center center;
     position: relative;
+}
+
+.bg-image{
+    background-image: url('../img/bg-image.jpg');
+}
+.bg-image1{
+    background-image: url('../img/bg-image.jpg');
+}
+.bg-image2{
+    background-image: url('../img/get_involved_background.png');
+}
+.bg-image3{
+    background-image: url('../img/background.png');
+}
+
+.logo{
+    background-image: url('../img/logo-dark.png');
 }
 
 .clearboth{clear: both;}
@@ -32,7 +48,7 @@ body
  font-family: 'Raleway', sans-serif;
  font-size: 10vw;
  position: absolute;
- top: 200px;
+ top: 180px;
  padding-left: 10px;
 }
 
@@ -42,7 +58,7 @@ body
  font-size: 10vw;
  font-family:  'Raleway', sans-serif;
  position: absolute;
- top: 280px;    
+ top: 220px;    
  left: 150px;
  
  
@@ -142,9 +158,9 @@ ul li a
 /* footer */
 
 /* vision background image*/
-.bg_image1{  
-    width: 100%;
-    /*height:535px;*/ 
+/*
+.bg-image1{  
+    width: 100%; 
 	min-height:538px;		
     max-height: auto;
     background-image: url(../img/vision.png);
@@ -153,6 +169,13 @@ ul li a
 	background-position: center center;  
     object-fit: cover;
 }
+*/
+
+
+.bg-image1{  
+    background-image: url(../img/vision.png);
+}
+
 
 .global-header{
 	padding-top: 20px;
@@ -214,6 +237,7 @@ ul li a
 }
 
 /* Page - Refer Donor via get involved */
+	/*
 	 .bg_image_1{
 		width: 100%;
 		min-height:538px;
@@ -223,7 +247,8 @@ ul li a
 	 	background-position: center center;
 		position: relative;;
 	}
-
+	*/
+	
 	.involved_img-responsive{
 		margin-left: auto;
 		margin-right: auto;
@@ -250,7 +275,7 @@ ul li a
 	}
 
 	.refer{
-	  height: 230px;
+	  height: 150px;
 	  width: 100%;
 	  background-color: transparent;
 		float: left;
@@ -290,7 +315,7 @@ ul li a
 		padding-right: 0px;
 	}
 	.donor{
-		height: 230px;
+		height: 150px;
 		width: 100%;
 		background-color: transparent;
 	   float: right;
@@ -332,6 +357,7 @@ ul li a
 
 
 /*Contact Us*/
+/*
 .contact_refer_main_container{
     width: 100%;
 	min-height: 538px;
@@ -342,6 +368,7 @@ ul li a
 	
 	
 }
+*/
 .contact_transparent-input{
     background-color:transparent !important;
     border:none !important;
@@ -370,7 +397,7 @@ ul li a
 }
 .contact_table-t1
 {
-    border-right: 2px solid #a9cce3;
+    border-right: 0px solid #a9cce3;
     margin-top: 5%;
 }
 .contact_table-t2
@@ -393,7 +420,6 @@ ul li a
 /* contact us End*/
 
 /*Donation */
-
 	.donation_bg_image_1{
 		width: 100%;
 		min-height:538px;
@@ -408,7 +434,7 @@ ul li a
 		height: 230px;
 		width: 100%;
 		position: relative;
-		top: 120px;
+		top: 150px;
 	}  
 	.donation_refer_donor1_1{
 		-webkit-column-count: 3; /* Chrome, Safari, Opera */
@@ -416,10 +442,11 @@ ul li a
 	  column-count: 3;
 	  -webkit-column-gap: 4px; /* Chrome, Safari, Opera */
 	  -moz-column-gap: 4px; /* Firefox */
-	  column-gap: 4px;
+	  column-gap: px;
 	  -webkit-column-rule: 3px solid #00579A; /* Chrome, Safari, Opera */
 	  -moz-column-rule: 3px solid #00579A; /* Firefox */
 	  column-rule: 3px solid #00579A;
+	  margin: -40px;
 	}
 	.donation_DONOR{
 	  height: 200px;
@@ -528,33 +555,28 @@ ul li a
 		background-color: transparent;
 	}
 
-	/* Thanks You Page */
-	#thankyou{
-		min-height:538px;
-		max-height: auto;
-		width: 100%;
-		background-image: url("..//img/background.png");
-		background-size: cover; 
-	 	background-position: center center;
-	}
-
-	#thankyou h1{
+	.thankyou h1{
 		font-family: 'Raleway', sans-serif;
 		font-size:36px;
-		padding: 20% 0 0 10%;
+		padding: 10% 0 0 10%;
 		color: rgb(25,85,155)
 	}
 
-	#thankyou p {
+	.thankyou p {
 		font-family: Georgia, 'Times New Roman', Times, serif;
 		font-size: 19px;
-		padding: 0 23% 0 10%;
+		padding: 0 10% 0 10%;
 		text-align: justify;
 		color: rgb(25,85,155);
 	}
 	
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+	/* Background Image*/
+	.bg-banner{
+		min-height:520px;
+	}
+	
 	.homep1
 	{
 	 color: #00579A;
@@ -910,15 +932,22 @@ ul li a
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {	
-	.bg_image{
-		min-height:536px;
+	/* Background Image*/
+	.bg-banner{
+		min-height:520px;
 	}
-	.bg_image1{
-		min-height:536px;
+	
+	.logo{
+		content:url('../img/logo.png');
 	}
-	.bg_image_1{
-		min-height:536px;
+	.contact_table-t1
+	{
+		border-right: 2px solid #a9cce3;
+		margin-top: 5%;
 	}
+	
+	
+	
 	.donation_bg_image_1{
 		min-height:536px;
 	}
@@ -1218,7 +1247,7 @@ ul li a
 		height: 230px;
 		width: 100%;
 		position: relative;
-		top: 140px;
+		top: 180px;
 	}  
 	.donation_refer_donor1_1{
 		-webkit-column-count: 3; /* Chrome, Safari, Opera */
@@ -1340,23 +1369,14 @@ ul li a
 	}
 	
 	/* Thanks You Page */
-	#thankyou{
-		min-height:538px;
-		max-height: auto;
-		width: 100%;
-		background-image: url("..//img/background.png");
-		background-size: cover; 
-	   	background-position: center center;
-	}
-
-	#thankyou h1{
+	.thankyou h1{
 		font-family: 'Raleway', sans-serif;
 		font-size:56px;
 		padding: 12% 0 0 25%;
 		color: rgb(25,85,155)
 	}
 
-	#thankyou p {
+	.thankyou p {
 		font-family: Georgia, 'Times New Roman', Times, serif;
 		font-size: 19px;
 		padding: 0 23% 0 25%;
