@@ -18,6 +18,7 @@ body
 .bg-banner{
     width: 100%;
     min-height:428px;
+	max-height: auto;
 	background-size: cover; 
 	background-position: center center;
     position: relative;
@@ -978,7 +979,7 @@ ul li a
 	.font-la-sonnambula{
 		font-family: la-sonnambula;	
 		font-size: 6vw;
-		height : 150%;
+		height : 150% !important;
 		width : 75%;
 	}	
 
