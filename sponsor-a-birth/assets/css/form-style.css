@@ -380,7 +380,7 @@ input.input100 {
   transition: all 0.4s;
 
   /*Added by tara*/
-  left:45%;
+  left:25%;
 	position: absolute;
 	margin-top: 40px;
 	border: 2px solid #a9cce3;
@@ -528,6 +528,9 @@ input.input100 {
 	}
 	.focus-input100::before {
 		border-left:2px solid #a9cce3;
+	}
+	.login100-form-btn {
+		left: 45%;
 	}
 }
 
